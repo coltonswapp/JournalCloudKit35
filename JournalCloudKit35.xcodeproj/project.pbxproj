@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75651EBE24EB231500FCCAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EBD24EB231500FCCAAE /* AppDelegate.swift */; };
+		75651EC024EB231500FCCAAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EBF24EB231500FCCAAE /* SceneDelegate.swift */; };
+		75651EC524EB231500FCCAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75651EC324EB231500FCCAAE /* Main.storyboard */; };
+		75651EC724EB231600FCCAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75651EC624EB231600FCCAAE /* Assets.xcassets */; };
+		75651ECA24EB231600FCCAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75651EC824EB231600FCCAAE /* LaunchScreen.storyboard */; };
+		75651EDB24EB248A00FCCAAE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75651EDA24EB248A00FCCAAE /* CloudKit.framework */; };
+		75651EDD24EB24B800FCCAAE /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EDC24EB24B800FCCAAE /* Entry.swift */; };
+		75651EE024EB2DE400FCCAAE /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EDF24EB2DE400FCCAAE /* EntryController.swift */; };
+		75651EE324EB2F0300FCCAAE /* EntryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EE224EB2F0300FCCAAE /* EntryError.swift */; };
+		75651EE524EB346A00FCCAAE /* EntriesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EE424EB346A00FCCAAE /* EntriesListTableViewController.swift */; };
+		75651EE724EB41B600FCCAAE /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EE624EB41B600FCCAAE /* DateFormatter.swift */; };
+		75651EE924EB43ED00FCCAAE /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75651EE824EB43ED00FCCAAE /* EntryDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75651EBA24EB231500FCCAAE /* JournalCloudKit35.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalCloudKit35.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75651EBD24EB231500FCCAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75651EBF24EB231500FCCAAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75651EC424EB231500FCCAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75651EC624EB231600FCCAAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75651EC924EB231600FCCAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75651ECB24EB231600FCCAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75651ED824EB248700FCCAAE /* JournalCloudKit35.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JournalCloudKit35.entitlements; sourceTree = "<group>"; };
+		75651EDA24EB248A00FCCAAE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		75651EDC24EB24B800FCCAAE /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		75651EDF24EB2DE400FCCAAE /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		75651EE224EB2F0300FCCAAE /* EntryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryError.swift; sourceTree = "<group>"; };
+		75651EE424EB346A00FCCAAE /* EntriesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesListTableViewController.swift; sourceTree = "<group>"; };
+		75651EE624EB41B600FCCAAE /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		75651EE824EB43ED00FCCAAE /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75651EB724EB231500FCCAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75651EDB24EB248A00FCCAAE /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75651EB124EB231500FCCAAE = {
+			isa = PBXGroup;
+			children = (
+				75651EBC24EB231500FCCAAE /* JournalCloudKit35 */,
+				75651EBB24EB231500FCCAAE /* Products */,
+				75651ED924EB248A00FCCAAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75651EBB24EB231500FCCAAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75651EBA24EB231500FCCAAE /* JournalCloudKit35.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75651EBC24EB231500FCCAAE /* JournalCloudKit35 */ = {
+			isa = PBXGroup;
+			children = (
+				75651EE124EB2EF500FCCAAE /* Extensions&Helpers */,
+				75651ED824EB248700FCCAAE /* JournalCloudKit35.entitlements */,
+				75651ED624EB246700FCCAAE /* Views */,
+				75651ED324EB244C00FCCAAE /* Controllers */,
+				75651ED224EB244900FCCAAE /* Model */,
+				75651ED124EB243600FCCAAE /* Resources */,
+			);
+			path = JournalCloudKit35;
+			sourceTree = "<group>";
+		};
+		75651ED124EB243600FCCAAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75651EBD24EB231500FCCAAE /* AppDelegate.swift */,
+				75651EBF24EB231500FCCAAE /* SceneDelegate.swift */,
+				75651EC624EB231600FCCAAE /* Assets.xcassets */,
+				75651EC824EB231600FCCAAE /* LaunchScreen.storyboard */,
+				75651ECB24EB231600FCCAAE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75651ED224EB244900FCCAAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75651EDC24EB24B800FCCAAE /* Entry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75651ED324EB244C00FCCAAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75651ED524EB245600FCCAAE /* ModelControllers */,
+				75651ED424EB245100FCCAAE /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75651ED424EB245100FCCAAE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75651EE424EB346A00FCCAAE /* EntriesListTableViewController.swift */,
+				75651EE824EB43ED00FCCAAE /* EntryDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75651ED524EB245600FCCAAE /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75651EDF24EB2DE400FCCAAE /* EntryController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		75651ED624EB246700FCCAAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75651ED724EB246C00FCCAAE /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75651ED724EB246C00FCCAAE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				75651EC324EB231500FCCAAE /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		75651ED924EB248A00FCCAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75651EDA24EB248A00FCCAAE /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75651EE124EB2EF500FCCAAE /* Extensions&Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				75651EE224EB2F0300FCCAAE /* EntryError.swift */,
+				75651EE624EB41B600FCCAAE /* DateFormatter.swift */,
+			);
+			path = "Extensions&Helpers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75651EB924EB231500FCCAAE /* JournalCloudKit35 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75651ECE24EB231600FCCAAE /* Build configuration list for PBXNativeTarget "JournalCloudKit35" */;
+			buildPhases = (
+				75651EB624EB231500FCCAAE /* Sources */,
+				75651EB724EB231500FCCAAE /* Frameworks */,
+				75651EB824EB231500FCCAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JournalCloudKit35;
+			productName = JournalCloudKit35;
+			productReference = 75651EBA24EB231500FCCAAE /* JournalCloudKit35.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75651EB224EB231500FCCAAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Colton Swapp";
+				TargetAttributes = {
+					75651EB924EB231500FCCAAE = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 75651EB524EB231500FCCAAE /* Build configuration list for PBXProject "JournalCloudKit35" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75651EB124EB231500FCCAAE;
+			productRefGroup = 75651EBB24EB231500FCCAAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75651EB924EB231500FCCAAE /* JournalCloudKit35 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75651EB824EB231500FCCAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75651ECA24EB231600FCCAAE /* LaunchScreen.storyboard in Resources */,
+				75651EC724EB231600FCCAAE /* Assets.xcassets in Resources */,
+				75651EC524EB231500FCCAAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75651EB624EB231500FCCAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75651EE524EB346A00FCCAAE /* EntriesListTableViewController.swift in Sources */,
+				75651EDD24EB24B800FCCAAE /* Entry.swift in Sources */,
+				75651EE324EB2F0300FCCAAE /* EntryError.swift in Sources */,
+				75651EE724EB41B600FCCAAE /* DateFormatter.swift in Sources */,
+				75651EBE24EB231500FCCAAE /* AppDelegate.swift in Sources */,
+				75651EE024EB2DE400FCCAAE /* EntryController.swift in Sources */,
+				75651EE924EB43ED00FCCAAE /* EntryDetailViewController.swift in Sources */,
+				75651EC024EB231500FCCAAE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75651EC324EB231500FCCAAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75651EC424EB231500FCCAAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75651EC824EB231600FCCAAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75651EC924EB231600FCCAAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75651ECC24EB231600FCCAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75651ECD24EB231600FCCAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75651ECF24EB231600FCCAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JournalCloudKit35/JournalCloudKit35.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X89M6X46Y8;
+				INFOPLIST_FILE = JournalCloudKit35/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwappDev.JournalCloudKit35;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75651ED024EB231600FCCAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JournalCloudKit35/JournalCloudKit35.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X89M6X46Y8;
+				INFOPLIST_FILE = JournalCloudKit35/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwappDev.JournalCloudKit35;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75651EB524EB231500FCCAAE /* Build configuration list for PBXProject "JournalCloudKit35" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75651ECC24EB231600FCCAAE /* Debug */,
+				75651ECD24EB231600FCCAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75651ECE24EB231600FCCAAE /* Build configuration list for PBXNativeTarget "JournalCloudKit35" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75651ECF24EB231600FCCAAE /* Debug */,
+				75651ED024EB231600FCCAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75651EB224EB231500FCCAAE /* Project object */;
+}

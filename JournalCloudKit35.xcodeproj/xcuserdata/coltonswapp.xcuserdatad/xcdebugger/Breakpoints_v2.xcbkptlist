@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5736A7A8-D399-416D-8B85-44CE43612EC8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA9A1CE8-FF96-442A-AFA6-91982CDB9605"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "saveEntry(save:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CA9A1CE8-FF96-442A-AFA6-91982CDB9605 - 5a5313e6bbfbe0d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JournalCloudKit35.EntryController.saveEntry(save: JournalCloudKit35.Entry, completion: (Swift.Result&lt;Swift.Optional&lt;JournalCloudKit35.Entry&gt;, JournalCloudKit35.EntryError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "JournalCloudKit35"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coltonswapp/Desktop/AppWalkthroughs/DevMtn%20iOS35/Week%204/JournalCloudKit35/JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "CA9A1CE8-FF96-442A-AFA6-91982CDB9605 - 69ce816c6013f21c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.CKRecord&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JournalCloudKit35.EntryController.saveEntry(save: JournalCloudKit35.Entry, completion: (Swift.Result&lt;Swift.Optional&lt;JournalCloudKit35.Entry&gt;, JournalCloudKit35.EntryError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "JournalCloudKit35"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coltonswapp/Desktop/AppWalkthroughs/DevMtn%20iOS35/Week%204/JournalCloudKit35/JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "277">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "655F72E5-871D-44F0-B555-4A1756E403E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "saveEntry(save:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A871FD5-684A-4F1D-845F-667A4ABDE31E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "saveEntry(save:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74CA4AB6-C224-4A40-BD52-82BF9361567D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "saveEntry(save:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7AD6336-03E8-4272-9330-0DB43EEEE24E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "saveEntry(save:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20EE8A1F-C780-49DF-9DD8-21943610B5D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JournalCloudKit35/Controllers/ModelControllers/EntryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "saveEntry(save:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
